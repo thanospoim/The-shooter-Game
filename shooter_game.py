@@ -15,9 +15,9 @@ class GameSprite(sprite.Sprite):
     def draw(self):
         window.blit(self.image, (self.rect.x, self.rect.y))
 
-print('hello world')
+
 bullets = sprite.Group()
-print("hii")
+
 #rocket creation
 class Rocket(GameSprite):
     def update(self):
